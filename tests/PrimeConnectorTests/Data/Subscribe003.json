@@ -1,0 +1,13 @@
+{
+    "cmd": "SUBSCRIBE",
+    "cmdId": 638794013998590700,
+    "subscriptionId": 1743804590179,
+    "status": "SUCCESS",
+    "body": {
+        "instrument": "SPO.XAUUSD",
+        "metadata": {
+            "instrumentName": "Gold Spot Multi-Contributor",
+            "ticker": "XAUUSD"
+        }
+    }
+}

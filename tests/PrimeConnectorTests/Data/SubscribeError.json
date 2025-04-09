@@ -1,0 +1,8 @@
+{
+    "cmd": "SUBSCRIBE",
+    "cmdId": 638793888853173900,
+    "status": "INSTRUMENT_LICENSE_NOT_EXISTENT",
+    "body": {
+        "instrument": "SPO.USDCNH"
+    }
+}

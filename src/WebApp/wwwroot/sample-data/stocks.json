@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "MSFT",
+    "dayOpen": 107.56,
+    "dayLow": 107.56,
+    "dayHigh": 107.56,
+    "lastChange": 107.56,
+    "change": 0.00,
+    "percentChange": 0,
+    "price": 107.56
+  },
+  {
+    "symbol": "AAPL",
+    "dayOpen": 215.49,
+    "dayLow": 215.49,
+    "dayHigh": 215.49,
+    "lastChange": 215.49,
+    "change": 0.00,
+    "percentChange": 0,
+    "price": 215.49
+  },
+  {
+    "symbol": "GOOG",
+    "dayOpen": 1221.16,
+    "dayLow": 1221.16,
+    "dayHigh": 1221.16,
+    "lastChange": 1221.16,
+    "change": 0.00,
+    "percentChange": 0,
+    "price": 1221.16
+  }
+]

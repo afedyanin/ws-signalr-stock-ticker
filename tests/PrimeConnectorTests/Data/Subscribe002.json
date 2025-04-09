@@ -1,0 +1,13 @@
+{
+    "cmd": "SUBSCRIBE",
+    "cmdId": 638794013998540900,
+    "subscriptionId": 1743804590178,
+    "status": "SUCCESS",
+    "body": {
+        "instrument": "SPO.USDCNH",
+        "metadata": {
+            "instrumentName": "US Dollar/Chinese Yuan Offshore FX Spot Rate",
+            "ticker": "USDCNH"
+        }
+    }
+}

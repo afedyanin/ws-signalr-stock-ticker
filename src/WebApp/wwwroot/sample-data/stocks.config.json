@@ -1,0 +1,39 @@
+{
+  "version": "3.4.3",
+  "plugin": "Datagrid",
+  "plugin_config": {
+    "columns": {},
+    "edit_mode": "READ_ONLY",
+    "scroll_lock": false
+  },
+  "columns_config": {
+    "percentChange": {
+      "number_bg_mode": "color"
+    },
+    "lastChange": {
+      "number_bg_mode": "pulse"
+    },
+    "change": {
+      "number_bg_mode": "color"
+    }
+  },
+  "settings": false,
+  "theme": "Pro Dark",
+  "title": "Stock prices",
+  "group_by": [],
+  "split_by": [],
+  "columns": [
+    "symbol",
+    "price",
+    "lastChange",
+    "change",
+    "percentChange",
+    "dayOpen",
+    "dayLow",
+    "dayHigh"
+  ],
+  "filter": [],
+  "sort": [],
+  "expressions": {},
+  "aggregates": {}
+}

@@ -1,0 +1,47 @@
+{
+  "version": "3.4.3",
+  "plugin": "Datagrid",
+  "plugin_config": {
+    "columns": {},
+    "edit_mode": "READ_ONLY",
+    "scroll_lock": false
+  },
+  "columns_config": {
+    "percentChange": {
+      "number_bg_mode": "color"
+    },
+    "netChange": {
+      "number_bg_mode": "color"
+    }
+  },
+  "settings": false,
+  "theme": "Pro Dark",
+  "title": null,
+  "group_by": [],
+  "split_by": [],
+  "columns": [
+    "instrument",
+    "dateTime",
+    "bid",
+    "ask",
+    "mid",
+    "last",
+    "open",
+    "high",
+    "low",
+    "close",
+    "netChange",
+    "percentChange",
+    "openInterest",
+    "tradesToday",
+    "volume",
+    "prevVol",
+    "bidSize",
+    "askSize",
+    "lastSize"
+  ],
+  "filter": [],
+  "sort": [],
+  "expressions": {},
+  "aggregates": {}
+}

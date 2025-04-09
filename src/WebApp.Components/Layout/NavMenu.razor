@@ -1,0 +1,23 @@
+<div class="navmenu">
+    <input type="checkbox" title="Menu expand/collapse toggle" id="navmenu-toggle" class="navmenu-icon" />
+    <label for="navmenu-toggle" class="navmenu-icon"><FluentIcon Value="@(new Icons.Regular.Size20.Navigation())" Color="Color.Neutral" /></label>
+    <nav class="sitenav" aria-labelledby="main-menu" onclick="document.getElementById('navmenu-toggle').click()">
+        <FluentNavMenu Id="main-menu" Title="Main menu">
+            <FluentNavLink Icon="@(new Icons.Regular.Size20.Home())" Href="/" Match="NavLinkMatch.All">
+                <h3>Home</h3>
+            </FluentNavLink>
+
+            <FluentNavGroup Gap="10px" Icon="@(new Icons.Regular.Size20.Sanitize())">
+                <TitleTemplate><h3>Samples</h3></TitleTemplate>
+                <ChildContent>
+                    <FluentNavLink Href="/counter" Icon="@(new Icons.Regular.Size20.NumberSymbolSquare())" IconColor="Color.Accent">Counter</FluentNavLink>
+                    <FluentNavLink Href="/weather" Icon="@(new Icons.Regular.Size20.WeatherPartlyCloudyDay())" IconColor="Color.Accent">Weather</FluentNavLink>
+                    <FluentNavLink Href="/fetchdata" Icon="@(new Icons.Regular.Size20.WeatherPartlyCloudyDay())" IconColor="Color.Accent">Fetch Data</FluentNavLink>
+                    <FluentNavLink Href="/stock-ticker" Icon="@(new Icons.Regular.Size20.Sanitize())" IconColor="Color.Accent">Stock ticker</FluentNavLink>
+                    <FluentNavLink Href="/prime-market" Icon="@(new Icons.Regular.Size20.Markdown())" IconColor="Color.Accent">Prime market</FluentNavLink>
+                </ChildContent>
+            </FluentNavGroup>
+
+        </FluentNavMenu>
+    </nav>
+</div>

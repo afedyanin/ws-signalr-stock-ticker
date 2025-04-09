@@ -1,0 +1,14 @@
+{
+    "cmd": "SUBSCRIBE",
+    "cmdId": 638793884263120300,
+    "subscriptionId": 1743791616535,
+    "status": "SUCCESS",
+    "body": {
+        "instrument": "FUT.MCU3",
+        "metadata": {
+            "instrumentName": "COPPER 3 Month Forward",
+            "ticker": "MCU3",
+            "exchangeName": "London Metal Exchange"
+        }
+    }
+}
