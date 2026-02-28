@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/common/">
+    <File Path=".editorconfig" />
+    <File Path="backlog.md" />
+    <File Path="Directory.Build.props" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Ws.Client.ConsoleApp/Ws.Client.ConsoleApp.csproj" Id="92276258-af83-40d0-b235-4d93abb00e6d" />
+    <Project Path="src/Ws.Server.ConsoleApp/Ws.Server.ConsoleApp.csproj" Id="b8177f59-867a-4a5e-aabb-b27e1ddce838" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
