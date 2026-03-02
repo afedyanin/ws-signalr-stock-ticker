@@ -1,0 +1,6 @@
+@Ws.Server.Host_HostAddress = http://localhost:5261
+
+GET {{Ws.Server.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
